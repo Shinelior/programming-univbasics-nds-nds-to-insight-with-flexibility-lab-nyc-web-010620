@@ -134,7 +134,7 @@ def movies_with_directors_set(source)
   new_array=[]
   row_index=0
   while row_index< source.length do
-  if !new_hash[row_index][:director_name]
+  if !new_hash[source[row_index][:name]]
   #director_name=source[row_index][:name]
    new_hash[row_index][:director_name]=source[row_index][:name]
  else
