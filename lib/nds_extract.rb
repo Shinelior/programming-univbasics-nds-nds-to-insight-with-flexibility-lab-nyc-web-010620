@@ -138,7 +138,7 @@ def movies_with_directors_set(source)
   #director_name=source[row_index][:name]
    new_hash[row_index][:director_name]=source[row_index][:name]
  else
-   new_hash[source[row_index][:name]]+=source[row_index][:movies]
+   new_hash[row_index][:director_name]+=source[row_index][:movies]
  end
    
       #director_name=source[row_index][:name]
